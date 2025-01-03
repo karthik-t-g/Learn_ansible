@@ -1,5 +1,4 @@
-- name: Test ping
-  hosts: all
+- hosts: all
   tasks:
-    -ping
+    -ping:
 
