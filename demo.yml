@@ -3,6 +3,7 @@
   tasks:
     - ping:
 - name: sample print
+  hosts: all
   tasks:
     - name : print hello
       ansible.builtin.debug:
