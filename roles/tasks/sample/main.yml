@@ -1,4 +1,5 @@
-- name: sample prin 
+- name: sample
+  hosts: all
   tasks:
     - name : print hello
       ansible.builtin.debug:
