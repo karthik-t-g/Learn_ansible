@@ -4,5 +4,5 @@
     URL: google.com
   tasks:
     - name: print url
-      ansible.inbuilt.debug:
+      ansible.builtin.debug:
         msg: "This is my {{URL}}"
