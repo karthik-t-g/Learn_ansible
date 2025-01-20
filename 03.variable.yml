@@ -1,0 +1,8 @@
+- name: sample variable
+  hosts: all
+  vars:
+    url:'google.com'
+  tasks:
+    - name: print url
+      ansible.inbuilt.debug:
+        msg: "This is my {{url}}"
