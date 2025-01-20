@@ -5,4 +5,4 @@
   tasks:
     - name: print url
       ansible.inbuilt.debug:
-        msg: "This is my {{url}}"
+        msg: "This is my {{URL}}"
