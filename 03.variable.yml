@@ -1,7 +1,7 @@
 - name: sample variable
   hosts: all
-  #vars:
-   # url: google.com
+  vars:
+    url: google.com
   vars_files:
     - sample-variable.yml
   tasks:
