@@ -2,7 +2,9 @@
   hosts: all
   vars:
     url: google.com
+  var_files:
+    - sample-variable.yml
   tasks:
     - name: print url
       ansible.builtin.debug:
-        msg: "This is my {{url}}"
+        msg: "This is my url {{url}} and  url1 - {{url1}}"
