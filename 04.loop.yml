@@ -1,0 +1,8 @@
+- name: check loop
+  hosts: all
+  tasks:
+    - name: print loop
+      ansible.builtin.debug:
+        msg: "this are the {{item}}"
+      loop:
+        - sample-variable.yml

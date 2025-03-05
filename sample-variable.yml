@@ -1,2 +1,6 @@
 url1 : yahoo.com
 #url : google.yahoo.com
+fruits:
+  - apple
+  - orange
+  - pineapple
