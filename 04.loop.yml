@@ -5,4 +5,6 @@
       ansible.builtin.debug:
         msg: "this are the {{item}}"
       loop:
-        - sample-variable.yml
+        - apple
+        - orange
+        - pineapple
